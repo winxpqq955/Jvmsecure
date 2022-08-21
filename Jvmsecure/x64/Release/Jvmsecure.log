@@ -1,0 +1,37 @@
+﻿  Jvmsecure.cpp
+  ce_detection.cpp
+D:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\xstring(2824,53): warning C4244: “参数”: 从“wchar_t”转换到“const _Elem”，可能丢失数据
+          with
+          [
+              _Elem=char
+          ]
+D:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\xstring(2664): message : 查看对正在编译的函数 模板 实例化“void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*>(_Iter,const _Iter)”的引用
+          with
+          [
+              _Iter=wchar_t *
+          ]
+D:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\include\xstring(2664): message : 查看对正在编译的函数 模板 实例化“void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*>(_Iter,const _Iter)”的引用
+          with
+          [
+              _Iter=wchar_t *
+          ]
+D:\Project\Jvmsecure\Jvmsecure\ce_detection.cpp(37): message : 查看对正在编译的函数 模板 实例化“std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)”的引用
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+D:\Project\Jvmsecure\Jvmsecure\ce_detection.cpp(37): message : 查看对正在编译的函数 模板 实例化“std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)”的引用
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  正在生成代码
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+D:\Project\Jvmsecure\Jvmsecure\ce_detection.cpp(26): warning C4715: “window_callback”: 不是所有的控件路径都返回值
+  All 390 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  Jvmsecure.vcxproj -> D:\Project\Jvmsecure\x64\Release\Jvmsecure.exe
